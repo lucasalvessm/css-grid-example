@@ -9,6 +9,7 @@ body {
   font-size: 16px;
   height: 100vh;
   display: grid;
+  background: #f1f5f9;
   grid-template-areas:
     "header header header"
     "nav content sidebar"
@@ -21,10 +22,10 @@ nav,
 main,
 aside,
 footer {
-  background-color: steelblue;
-  color: white;
+  background: #f1ecff;
+  color: #0b0b2f;
+  border: #0b0b2f 1px solid;
   padding: 20px;
-  border: skyblue 1px solid;
 }
 
 header {
